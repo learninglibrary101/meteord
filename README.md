@@ -26,7 +26,8 @@ Then you can build the docker image with:
 docker build -t yourname/app .
 ~~~
 
-Then you can run your meteor image with
+Then you can run your meteor image with,
+***For internal testing, you must apply mongodb url and ROOT_URL=http://localhost***
 
 ~~~shell
 docker run -d \
